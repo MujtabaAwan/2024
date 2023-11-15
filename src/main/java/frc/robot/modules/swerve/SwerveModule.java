@@ -5,7 +5,7 @@ import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 public class SwerveModule {
     private CANSparkMax driveMotor;
-    private CANSparkMax turnMotor;
+    private CANSparkMax turnMotor; //does thing
 
     public SwerveModule(int driveMotorId, int turnMotorId) {
         driveMotor = new CANSparkMax(driveMotorId, MotorType.kBrushless);
